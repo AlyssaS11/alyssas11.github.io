@@ -5,19 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alyssa Sollitt Portfolio</title>
-  <link rel="stylesheet" href="style.css">
   <style>
-    body {font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #f9f9f9; color: #333;}
-    header {background-color: #4CAF50; color: white; padding: 2rem 1rem; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
-    header h1 {margin: 0; font-size: 2.75rem;}
-    header p {margin-top: 0.5rem; font-size: 1.25rem;}
-    section {padding: 2rem 1rem; max-width: 900px; margin: auto;}
-    h2 {color: #4CAF50; font-size: 1.75rem; margin-bottom: 1rem; border-bottom: 2px solid #4CAF50; padding-bottom: 0.5rem;}
-    .project {background: white; margin-bottom: 1.5rem; padding: 1.25rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);}
-    .project h3 {margin-top: 0; color: #333;}
-    ul {list-style-type: square; padding-left: 1.5rem;}
-    a {color: #4CAF50; text-decoration: none;}
-    a:hover {text-decoration: underline;}
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #6C63FF;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.75rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.25rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #6C63FF;
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #6C63FF;
+      padding-bottom: 0.5rem;
+    }
+    .project {
+      background: white;
+      margin-bottom: 1.5rem;
+      padding: 1.25rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    a {
+      color: #6C63FF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -25,12 +75,14 @@
     <h1>Alyssa Sollitt</h1>
     <p>Learning Experience Designer | Program Manager | Customer Success</p>
   </header>
+
   <section id="about">
-    <h2>About Me</h2>
-    <p>I'm passionate about designing human-centered learning programs that drive engagement and performance. With experience in customer success, education, and learning experience design, I create impactful solutions for diverse, remote-first audiences.</p>
+    <h2>👋 About Me</h2>
+    <p>I'm passionate about designing human-centered learning programs that drive engagement and performance. With experience in customer success, education, and learning experience design, I create impactful solutions for diverse, remote-first or in-person audiences.</p>
   </section>
+
   <section id="projects">
-    <h2>Selected Projects</h2>
+    <h2>📁 Selected Projects</h2>
     <div class="project">
       <h3><a href="https://docs.google.com/document/d/1bBHMc9_Zh46hrvF5hwdUn3uwvZdGsNx7DzsLFaXA5WY/edit?usp=sharing" target="_blank">New Partner Onboarding Resource</a></h3>
       <ul>
@@ -56,8 +108,9 @@
       </ul>
     </div>
   </section>
+
   <section id="skills">
-    <h2>Skills & Tools</h2>
+    <h2>🛠️ Skills & Tools</h2>
     <ul>
       <li>Facilitation & Coaching</li>
       <li>Adult Learning Theory & Human-Centered Design</li>
@@ -71,10 +124,12 @@
       <li>Adaptability in Fast-Paced Environments</li>
     </ul>
   </section>
+
   <section id="contact">
-    <h2>Contact</h2>
+    <h2>📬 Contact</h2>
     <p><strong>Email:</strong> <a href="mailto:alyssa.sollitt@gmail.com">alyssa.sollitt@gmail.com</a></p>
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alyssasollitt" target="_blank">linkedin.com/in/alyssasollitt</a></p>
   </section>
+
 </body>
 </html>
